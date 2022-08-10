@@ -15,7 +15,8 @@ target 'PetDetective' do
   target 'PetDetectiveUITests' do
     # Pods for testing
   end
-  
+
   pod 'NMapsMap'
+  pod 'Alamofire', '~> 5.5'
 
 end
