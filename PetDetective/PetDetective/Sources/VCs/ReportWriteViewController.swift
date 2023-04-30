@@ -224,6 +224,7 @@ class ReportWriteViewController: UIViewController {
                 multipartFormData.append(operationBool.data(using: .utf8)!, withName: "isOperation")
                 if let unwrapDisease = disease {
                     multipartFormData.append("\(unwrapDisease)".data(using: String.Encoding.utf8)!, withName: "disease")
+                    multipartFormData.append("\(unwrapDisease)".data(using: String.Encoding.utf8)!, withName: "disease")
                 }
                 if let unwrapAge = age {
                     multipartFormData.append("\(unwrapAge)".data(using: String.Encoding.utf8)!, withName: "age")
@@ -257,6 +258,7 @@ class ReportWriteViewController: UIViewController {
             else{
                 operationBool = "null"
             }
+            
             AF.upload(multipartFormData: {multipartFormData in
                 let imageData: Data? = self.petImageView.image?.pngData()!
                 multipartFormData.append(imageData!, withName: "file", fileName: "testImage.png", mimeType: "image/png")

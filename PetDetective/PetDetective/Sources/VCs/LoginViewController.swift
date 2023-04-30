@@ -90,7 +90,7 @@ class LoginViewController: UIViewController {
                         print(error)
                     }
                 }
-            case let .failure(error):
+            case .failure(let error):
                 print(error)
             }
         }

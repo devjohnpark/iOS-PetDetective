@@ -35,7 +35,6 @@ class LocationController: UIViewController, CLLocationManagerDelegate {
     
     // 권한 없으면 권한 설정 화면으로
     func setAuthAlertAction() {
-
         let authAlertController = UIAlertController(title: "위치 사용 권한이 필요합니다.", message: "위치 권한을 허용해야만 앱을 사용하실 수 있습니다.", preferredStyle: .alert)
 
         let getAuthAction = UIAlertAction(title: "설정", style: .default, handler: { (UIAlertAction) in

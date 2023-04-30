@@ -173,7 +173,7 @@ class ReportBoardViewController: UIViewController {
                         let decodedData = try JSONDecoder().decode(APIDetectBoardResponse<[ReportBoard]>.self, from: data!)
                         self.searchTotalPage = decodedData.totalPage ?? 1
                         self.boardList.append(contentsOf: decodedData.detectBoardDTOList!)
-                        self.collectionView.reloadData()
+                        self.collectionView.reloadData() 
                     }
                     catch{
                         print(error.localizedDescription)

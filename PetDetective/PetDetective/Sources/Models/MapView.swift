@@ -48,7 +48,7 @@ class MapView: UIView {
         guard let customView = nibs?.first as? UIView else { return }
         customView.frame = self.bounds
         self.addSubview(customView)
-    }
+     }
     
     
     /*

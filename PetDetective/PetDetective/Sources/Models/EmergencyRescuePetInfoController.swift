@@ -21,7 +21,7 @@ struct EmergencyRescuePetInfoController {
 //        let query: [String: String] = [
 //            "userId": "\(userId)"
 //        ]
-        
+//
 //        guard let url = baseUrl.withQueries(query) else {
 //            print("Unalbe to build URL")
 //            return

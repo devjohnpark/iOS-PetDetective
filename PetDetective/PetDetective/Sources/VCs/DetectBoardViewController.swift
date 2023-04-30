@@ -153,7 +153,7 @@ class DetectBoardViewController: UIViewController {
                     catch{
                         print(error.localizedDescription)
                     }
-                }
+            
             }
         }
         task.resume()
