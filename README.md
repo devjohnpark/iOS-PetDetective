@@ -52,7 +52,7 @@ Teachalbe machine(machine learning)을 학습시칸 모델로  강아지의 품�
         
         * 각 마커 객체에 해당하는 타이머 기능 (골든타임의 남은 시간)
         
-4. Restful Api 연동
+4. Restful API 연동
 
         * GET: URLSession (실종/목격된 견의 해당 좌표 및 주소, 실종/목견된 견의 해당 게시글)
         * PUT: Alamofire library (유실·유실견 탐색 좌표 및 주소 수정)
@@ -66,7 +66,10 @@ Teachalbe machine(machine learning)을 학습시칸 모델로  강아지의 품�
 
 <br/>
 
-### 앱 주요 기능 영상
+### 앱 소개 영상
+[![Alt text](https://img.youtube.com/vi/2iOcF1O8Ah0/0.jpg)](https://www.youtube.com/watch?v=2iOcF1O8Ah0)
+
+### 앱 주요 기능 GIF
 
 인공지능(자동 견의 종, 털색 분류) 체크 및 목격 신고글 생성
 
